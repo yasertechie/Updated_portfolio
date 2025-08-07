@@ -307,5 +307,105 @@ background-position: center;
         margin-right: 5rem;
     }
 }
+/* Responsive Layout */
+@media (max-width: 1024px) {
+    html {
+        font-size: 58%;
+    }
+
+    header {
+        padding: 1.5rem 5%;
+    }
+
+    .about {
+        flex-direction: column;
+        padding: 4rem 5%;
+        text-align: center;
+    }
+
+    .about .content {
+        margin-left: 0;
+        max-width: 90%;
+    }
+
+    .profile-photo {
+        margin-bottom: 2rem;
+    }
+
+    .skill-container {
+        flex-direction: column;
+        padding: 2rem 5%;
+    }
+
+    .certificate-container {
+        flex-direction: column;
+        padding: 2rem 5%;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 55%;
+    }
+
+    header .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .projects h2,
+    .education h2 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .footer-logo h2 {
+        font-size: 1.8rem;
+    }
+
+    .footer-links a {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 52%;
+    }
+
+    .btn {
+        font-size: 1.4rem;
+        padding: 0.7rem 2.5rem;
+    }
+
+    .about .content h1 {
+        font-size: 2.5rem;
+    }
+
+    .about .content span {
+        font-size: 2rem;
+    }
+
+    .about .content p {
+        font-size: 1.3rem;
+    }
+
+    .footer {
+        font-size: 1.2rem;
+    }
+
+    .footer-copy {
+        font-size: 1.1rem;
+    }
+}
+
+
 
 
