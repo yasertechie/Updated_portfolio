@@ -43,6 +43,6 @@ This is my personal portfolio website showcasing my education, technical skills,
 
 ## 📫 Contact Me
 
--(mail to:yaserqspec@gmail.com)
+-(mail to:yaseregspec@gmail.com)
 
 ---
